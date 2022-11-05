@@ -1,0 +1,60 @@
+body {
+    background-image: URL("/M4 - CSS3/projeto-2/static/imgs/fundo.png");
+    padding: 0;
+}
+
+div {
+    width: 900px;
+    margin: auto;
+}
+
+#top-bar {
+    text-align: center;
+}
+
+#top-bar > #menu {
+    background-color: #d4d3be;
+    padding: 25px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #55555d;
+}
+
+#top-bar > #menu > a {
+    text-decoration: none;
+    color: #55555d;
+    margin: 10px;
+}
+
+#conteudo {
+    background-color: #fdfbed;
+}
+
+#conteudo > h2 {
+    padding: 5px;
+    margin: 0;
+    color: #8c8a7d;
+}
+
+#conteudo > form {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #d4d3be;
+}
+
+#conteudo > .cartao-campanha {
+    text-align: center;
+}
+
+#conteudo > .cartao-campanha > img {
+    border: 10px solid #d4d3be;
+}
+
+#fim {
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+    padding: 0 5px;
+}
